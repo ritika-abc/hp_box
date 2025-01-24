@@ -212,5 +212,25 @@
             }
         });
     });
+    $('.carousel-cat').owlCarousel({	
+        center: true,		 
+        autoplay: true,
+        loop: true,			 
+        margin: 15,
+        stagePadding: 0,
+        nav: false,
+        navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+        responsive:{
+            0:{
+                items: 1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items: 5
+            }
+        }
+    });
 
 })(jQuery);
